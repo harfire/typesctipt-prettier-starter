@@ -1,0 +1,34 @@
+{
+	"name": "harfire",
+	"version": "1.0.0",
+	"description": "Typescript-Prettier compiler and formatter",
+	"main": "index.js",
+	"scripts": {
+		"transpile": "tsc",
+		"lint": "eslint --fix --ext .ts .",
+		"build": "npm run lint && npm run transpile",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/harfire/typesctipt-prettier-starter"
+	},
+	"keywords": [
+		"prettier",
+		"linting",
+		"typescript",
+		"formatter"
+	],
+	"author": "harfire",
+	"license": "MIT",
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^4.1.1",
+		"@typescript-eslint/parser": "^4.1.1",
+		"eslint": "^7.9.0",
+		"eslint-config-prettier": "^6.11.0",
+		"eslint-config-typescript": "^3.0.0",
+		"eslint-plugin-prettier": "^3.1.4",
+		"prettier": "^2.1.2",
+		"typescript": "^4.0.2"
+	}
+}
